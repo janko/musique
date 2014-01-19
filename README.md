@@ -3,6 +3,9 @@
 Musique is a gem for manipulating with musical constructs, such as notes,
 chords and intervals.
 
+* Source code: [https://github.com/janko-m/musique](https://github.com/janko-m/musique)
+* API Documenation: [http://rubydoc.info/github/janko-m/musique/master/frames](http://rubydoc.info/github/janko-m/musique/master/frames)
+
 Installation
 ------------
 
