@@ -104,7 +104,7 @@ module Music
     end
 
     ##
-    # Returns the same inteval with changed direction.
+    # Returns the same interval with changed direction.
     #
     # @return [Music::Interval]
     #
