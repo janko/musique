@@ -32,9 +32,7 @@ module Music
     attr_reader :kind
 
     ##
-    # @param name [String] Name of the chord, in any form.
-    # @example
-    #   Chord.new("Cm") == Chord.new("Cmin") #=> true
+    # @param name [String]
     #
     def initialize(name)
       unless match = name.match(/^#{REGEXP}$/)

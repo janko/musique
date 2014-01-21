@@ -53,12 +53,6 @@ major_third = Music::Interval.new(3, :major)
 Music::Chord.new("C").transpose_up(major_third).notes.map(&:name) #=> ["E", "G#", "B"]
 ```
 
-Into `Music::Chord.new(...)` you should be able to pass in any chord name. For example,
-`"Cm"` and `"Cmin"` both represent the "C minor" chord, and both can be passed in.
-
-If you come across a chord name that doesn't work, please open an issue,
-I would like to know about it :)
-
 ### `Music::Interval`
 
 ```rb
@@ -79,6 +73,16 @@ Music::Interval.new(6, :major).dissonance?           #=> false
 # Size
 Music::Interval.new(3, :major).size #=> 4 (semitones)
 ```
+
+Limitations
+-----------
+
+* Currently only triads (C/Cm) and seventh chords (C7/Cm7) are supported.
+  The goal is to support all chords in all notations.
+
+* Double accidentals (𝄪 and 𝄫) are not supported yet.
+
+* Double augmented/diminished intervals are not supported yet.
 
 Social
 ------
