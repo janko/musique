@@ -14,4 +14,6 @@ Gem::Specification.new do |gem|
 
   gem.files         = Dir["README.md", "LICENSE", "lib/**/*"]
   gem.require_path  = "lib"
+
+  gem.add_development_dependency "rspec", "~> 3.0.0.beta1"
 end

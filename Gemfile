@@ -9,7 +9,3 @@ group :development, :test do
   gem "pry-stack_explorer"
   gem "pry-doc"
 end
-
-group :test do
-  gem "rspec", "~> 3.0.0.beta1"
-end
