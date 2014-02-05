@@ -87,7 +87,7 @@ Limitations
 Social
 ------
 
-You can follow me on Twitter, I'm [@m_janko](http://twitter.com/m_janko).
+You can follow me on Twitter, I'm [@jankomarohnic](http://twitter.com/jankomarohnic).
 
 License
 -------
