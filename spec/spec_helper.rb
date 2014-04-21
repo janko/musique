@@ -1,4 +1,10 @@
 require "musique"
 require "pry"
 
-Dir[Bundler.root.join("spec/support/*.rb")].each { |file| require file }
+RSpec.configure do |config|
+  config.expect_with :rspec do |c|
+    c.syntax = :expect # Force the "expect" syntax
+  end
+
+  config.fail_fast = true
+end
