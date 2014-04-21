@@ -45,6 +45,9 @@ module Music
       @kind << "5" if @kind !~ /\d+/
     end
 
+    ##
+    # @return [String]
+    #
     def name
       [root, kind].join
     end
